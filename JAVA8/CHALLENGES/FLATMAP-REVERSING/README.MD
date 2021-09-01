@@ -5,9 +5,9 @@ Simple devoir de maison.
 ## Prérequis
 
 - Avoir un `JDK/OPENJDK` intallé qui supporte les versions récentes de JAVA surtout les lambda expression, ici j'ai utilisé la version `openjdk 11.0.11`
-- Avoir les fichiers JARs `junit.jar` et `hamcrest-core-1.jar` dans votre CLASSPATH si vous utilisez un `IDE` sinon si vous tester en ligne commande comme moi rassurez-vous de l'avoir dans `TESTS_TECHNIQUES/lib`.
+- Avoir les fichiers JARs `junit.jar` et `hamcrest-core-1.jar` dans votre CLASSPATH si vous utilisez un `IDE` sinon si vous testez en ligne commande comme moi rassurez-vous de l'avoir dans `TESTS_TECHNIQUES/lib`.
 
-**NB :** Dans ce projet les tests sont faits en ligne de commande, si vous utilisez un IDE exemple eclipse ayez les classes dans le dossier `src` de votre projet et les fichiers JARs dans `TESTS_TECHNIQUES/lib`.
+**NB :** Dans ce projet les tests sont faits en ligne de commande, si vous utilisez un IDE exemple eclipse ayez les classes dans le dossier `src` de votre projet et les fichiers JARs dans le CLASSPATH de votre projet.
 
 ## ARCHITECTURE DU PROJET
 
