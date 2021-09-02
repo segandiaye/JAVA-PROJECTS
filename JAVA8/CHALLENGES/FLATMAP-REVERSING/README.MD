@@ -7,7 +7,7 @@ Simple homework.
 - Have a `JDK/OPENJDK` installed which supports recent versions of JAVA especially lambda expressions, here I used the version` openjdk 11.0.11`
 - Have the `junit.jar` and` hamcrest-core-1.jar` JAR files in your CLASSPATH if you use an `IDE` otherwise if you test in command line like me, be sure to have it in` TESTS_TECHNIQUES/lib`.
 
-**NB: ** In this project the tests are done on command line, if you are using an eclipse IDE example have the classes in the `src` folder of your project and the JARs files in the CLASSPATH of your project.
+**NB:** In this project the tests are done on command line, if you are using an eclipse IDE example have the classes in the `src` folder of your project and the JARs files in the CLASSPATH of your project.
 
 ## ARCHITECTURE DU PROJET
 
@@ -49,7 +49,7 @@ If everything is OK you should have the following on your SHELL:
 [[1], [2], [3], [4], [5]]
 ```
 
-**NB: ** If you are curious you can edit the TestWithMain class to see its content.
+**NB:** If you are curious you can edit the TestWithMain class to see its content.
 
 ## TEST WITH Junit
 
