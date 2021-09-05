@@ -15,20 +15,15 @@ public class JUnitTests {
     list.add(5);
 
     Integer[][] array1 = new Integer[][]{{1, 2}, {3, 4}, {5}};
-    Integer[][] array2 = new Integer[][]{{1, 2, 3}, {4, 5}};
-    Integer[][] array3 = new Integer[][]{{1}, {2}, {3}, {4}, {5}};
+    //Integer[][] array2 = new Integer[][]{{1, 2, 3}, {4, 5}};
+    //Integer[][] array3 = new Integer[][]{{1}, {2}, {3}, {4}, {5}};
+    
+    List<List<Integer>> myList1 = MyList.partition(list, 2);
 
-    List<Integer[][]> lists = new ArrayList<Integer[][]>();
-    lists.add(array1);
-    lists.add(array2);
-    lists.add(array3);
+    Integer[][] ints = myList1.stream()
+        .map(arr -> arr.toArray(Integer[]::new))
+        .toArray(Integer[][]::new);
 
-    for(Integer[][] ls: lists){
-      for(int i = 0; i < ls.length; i++){
-          List<Integer> val = Arrays.asList(ls[i]);
-          assertEquals(val, MyList.partition(list, ls[0].length).get(i));
-      }
-    }
-
+    assertTrue(Arrays.deepEquals(array1, ints));
   }
 }
