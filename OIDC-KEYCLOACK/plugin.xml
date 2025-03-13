@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.views">
+		<view
+			id="fr.skeycloak.oidc.views"
+		        name="OIDC keycloak"
+		        class="fr.keycloak.oidc.views.SampleOidcView"
+		        icon="resources/icons/oidc2.jpg"
+		        category="fr.keycloak.oidc.views">
+		</view>
+	</extension>
+</plugin>

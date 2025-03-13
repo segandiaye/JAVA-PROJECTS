@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OIDC keycloak
+Bundle-SymbolicName: fr.keycloak.oidc;singleton:=true
+Bundle-Version: 0.7.0.qualifier
+Bundle-Vendor: CEA LIST
+Bundle-ClassPath: lib/jsoup-1.18.1.jar,
+ .
+Bundle-Activator: fr.keycloak.oidc.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.httpcomponents.httpclient,
+ org.apache.httpcomponents.httpcore,
+ com.google.gson
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Import-Package: jakarta.annotation;version="[2.1.0,3.0.0)",
+ jakarta.inject;version="[2.0.0,3.0.0)"
+Automatic-Module-Name: fr.keycloak.oidc
+Export-Package: fr.keycloak.oidc,
+ fr.keycloak.oidc.auth,
+ fr.keycloak.oidc.util
