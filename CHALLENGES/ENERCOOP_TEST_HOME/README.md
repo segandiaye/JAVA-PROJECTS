@@ -1,16 +1,16 @@
-### TEST TECHNIQUE ENERCOOP
+### ENERCOOP TECHNICAL TEST
 
-`Ce test permet de trouver les 5 IDs les plus fréquents dans l'ensemble des fichiers.`
+This test finds the 5 most frequent IDs in all logs files.
 
-Pour tester ce programme il suffit juste de clonner le projet et suivre ce qui suit :
+To test this program, simply clone the project and follow these steps:
 
-En ligne de commande :
-	
-	- `cd ENERCOOP_TEST_HOME`
-	- ` java EnercoopTest.java` (si `java version >= 11`) sinon veuillez d'abord le compiler avec `javac EnercoopTest.java` et ensuite lancer avec `java EnercoopTest`.
+From the command line:
 
-Ou tout simplement l'utiliser avec votre IDE en important le programme.
+- `cd ENERCOOP_TEST_HOME`
+- `java EnercoopTest.java` (if `java version >= 11`). Otherwise, please first compile it with `javac EnercoopTest.java` and then run it with `java EnercoopTest`.
 
-Dans cet exemple les 5 IDs les lus fréquents sont : `[413, 505, 473, 512, 991]`
+Or simply use it with your IDE by importing the program.
 
-**NB :** On aurait pu utiliser des librairies pour faire ce tests mais ce test est purement fait en java sans appel à d'autres librairies externes et sans IDE.
+In this example, the five most frequently used IDs are: [413, 505, 473, 512, 991]
+
+**Note:** We could have used libraries to run this test, but this test is done purely in Java, without calling any other external libraries or using an IDE.
